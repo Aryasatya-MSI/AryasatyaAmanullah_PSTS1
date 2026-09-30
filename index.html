@@ -6,7 +6,7 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-[url(https://images.unsplash.com/photo-1506744038136-46273834b3fb)] bg-cover bg-center">
+<body class="">
      <nav class="animate-[slidedown_1s_ease-out]">
         <div class="flex items-center bg-white p-4 shadow-lg border-5 w-screen">
             <img src="https://th.bing.com/th/id/OIP.XrGVljajcLZhvJGUD-Sc7gHaE7?w=247&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Logo" class="h-8 w-10 rounded-full">
@@ -19,14 +19,17 @@
             </ul>
         </div>
      </nav>
-     <div class="w-screen h-[200px] justify-start items-center">
-            <h1 class="mt-20 ml-5 text-[23px] font-bold text-shadow-lg animate-[slideup_0.5s_ease-out]">STUDENT CREATIVITY FESTIVAL</h1>
-            <p class="ml-5 text-black text-shadow-lg animate-[slideup_0.5s_ease-out]">Showcase Your Creativity, Skills and innovative Ideas</p>
-     </div>
-     <h2 class="mt-20 ml-5 text-[23px] font-bold text-center text-shadow-lg animate-[slideup_0.5s_ease-out]">EVENT INFORMATION</h2>  
+
+     <section class="Hero bg-[url(https://images.unsplash.com/photo-1506744038136-46273834b3fb)] bg-cover bg-center">
+        <div class="w-screen h-[450px] flex flex-col justify-center">
+            <h1 class="ml-5 text-[43px] font-bold text-shadow-lg animate-[slideup_0.5s_ease-out] text-center">STUDENT CREATIVITY FESTIVAL</h1>
+            <p class="ml-5 font-bold text-white text-shadow-lg animate-[slideup_0.5s_ease-out] text-center">Showcase Your Creativity, Skills and innovative Ideas</p>
+        </div>
+        <h2 class="ml-5 text-[23px] font-bold text-white text-center text-shadow-lg animate-[slideup_0.5s_ease-out]">EVENT INFORMATION</h2>
+     </section>  
 
      <div class="bg- flex flex-row w-screen h-auto justify-start items-center bg-white/30 backdrop-contrast-50 shadow-xl animate-[slideup_1.3s_ease-out]">
-        <form class="border-4 my-8 rounded-lg animate-[slideup_1s_ease-out] mx-8" action="">
+            <form class="border-4 my-8 rounded-lg animate-[slideup_1s_ease-out] mx-8" action="">
                 <h2 class="ml-5 mt-5 text-[23px] font-bold">Event Registration</h2>
                 <div class="flex flex-col w-auto h-screen">
                     <label for="Student Name" class="ml-5 mt-5 font-bold">Student's Name</label>
@@ -70,10 +73,9 @@
                     <textarea rows="5" cols="40" class="rounded-lg mx-5 border border-gray-200 shadow-lg mb-5" placeholder="Describe Your Project or Competition Entry..."></textarea>
                     
                     <button class="bg-red-800 font-semibold text-white ml-5 rounded-lg mb-5 w-[120px] py-2 animate-bounce duration-[1s,3s]">Register Now</button>
-                
                 </div>
-        </form>
-             <div class="flex flex-col w-[1000px] h-screen justify-start border-4 my-2 ml-20 rounded-lg animate-[slideup_1.5s_ease-out]">
+            </form>
+            <div class="flex flex-col w-[1000px] h-screen justify-start border-4 my-2 ml-20 rounded-lg animate-[slideup_1.5s_ease-out]">
                 <table class="m-10">
                     <thead>
                         <th class="px-5 py-3 bg-red-800 fond-bold text-white rounded-tl-lg text-center">No</th>
@@ -102,11 +104,65 @@
                         </tr>
                     </tbody>
                 </table>
-             </div>
+
+                <div class="h-auto w-auto mx-8 flex">
+                    <div class="shadow-xl h-auto w-[250px] bg-white border-l-4 border-blue-600 mx-6 rounded-lg py-3">
+                        <h2 class="font-bold text-[20px] mx-3">Adolf Hitler</h2>
+                        <p class="font-bold text-[10px] mx-3">
+                            Adolf Hitler adalah seorang politikus Austria-Jerman yang menjadi diktator Jerman Nazi dan tokoh utama Perang Dunia II serta Holocaust.
+                        </p>
+                    </div>
+                    <div class="shadow-xl h-auto w-[250px] bg-white border-l-4 border-blue-600 mx-6 rounded-lg py-3">
+                        <h2 class="font-bold text-[20px] mx-3">Joseph Stalin</h2>
+                        <p class="font-bold text-[10px] mx-3">
+                            Joseph Stalin adalah pemimpin Uni Soviet dari 1920‑an hingga wafat pada 5 Maret 1953, menjabat sebagai Sekretaris Jenderal Partai Komunis sejak 1922 dan menjadi diktator de facto pada era 1930‑an
+                        </p>
+                    </div>
+                    <div class="shadow-xl h-auto w-[250px] bg-white border-l-4 border-blue-600 mx-6 rounded-lg py-3">
+                        <h2 class="font-bold text-[20px] mx-3">Joseph Stalin</h2>
+                        <p class="font-bold text-[10px] mx-3">
+                            Joseph Stalin adalah pemimpin Uni Soviet dari 1920‑an hingga wafat pada 5 Maret 1953, menjabat sebagai Sekretaris Jenderal Partai Komunis sejak 1922 dan menjadi diktator de facto pada era 1930‑an
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="h-auto w-auto mx-8 flex mt-20">
+                    <div class="shadow-xl h-auto w-[250px] bg-white border-l-4 border-blue-600 mx-6 rounded-lg py-3">
+                        <h2 class="font-bold text-[20px] mx-3">Adolf Hitler</h2>
+                        <p class="font-bold text-[10px] mx-3">
+                            Adolf Hitler adalah seorang politikus Austria-Jerman yang menjadi diktator Jerman Nazi dan tokoh utama Perang Dunia II serta Holocaust.
+                        </p>
+                    </div>
+                    <div class="shadow-xl h-auto w-[250px] bg-white border-l-4 border-blue-600 mx-6 rounded-lg py-3">
+                        <h2 class="font-bold text-[20px] mx-3">Joseph Stalin</h2>
+                        <p class="font-bold text-[10px] mx-3">
+                            Joseph Stalin adalah pemimpin Uni Soviet dari 1920‑an hingga wafat pada 5 Maret 1953, menjabat sebagai Sekretaris Jenderal Partai Komunis sejak 1922 dan menjadi diktator de facto pada era 1930‑an
+                        </p>
+                    </div>
+                    <div class="shadow-xl h-auto w-[250px] bg-white border-l-4 border-blue-600 mx-6 rounded-lg py-3">
+                        <h2 class="font-bold text-[20px] mx-3">Joseph Stalin</h2>
+                        <p class="font-bold text-[10px] mx-3">
+                            Joseph Stalin adalah pemimpin Uni Soviet dari 1920‑an hingga wafat pada 5 Maret 1953, menjabat sebagai Sekretaris Jenderal Partai Komunis sejak 1922 dan menjadi diktator de facto pada era 1930‑an
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+
      </div>
 
 
-    
+     <footer>
+         <div class="border-t-4 border-black flex flex-col justify-center items-center bg-white p-4 w-screen h-auto">
+            <h1>
+                UDC. United Developer Community 
+            </h1>
+            <h2>
+                © 2026 United Developer Community. Dibuat dengan semangat kolaborasi.
+            </h2>
+        </div>
+     </footer>       
 </body>
 
 <style>
